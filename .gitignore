@@ -9,6 +9,6 @@ _book
 search_index.json
 libs
 *.rds
-_main.*
 bookdown*
 tmp-pdfcrop-*
+.DS_Store

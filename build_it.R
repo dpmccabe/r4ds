@@ -1,0 +1,18 @@
+library(bookdown)
+library(rmarkdown)
+library(tidyverse)
+library(nycflights13)
+library(Lahman)
+library(microbenchmark)
+library(webshot)
+library(pryr)
+library(gapminder)
+library(ggrepel)
+library(viridis)
+library(feather)
+library(leaflet)
+library(plotly)
+
+setwd("~/Google Drive/Texts/Math-Stats/Stats/R/r4ds/")
+
+bookdown::render_book("index.Rmd", bookdown::pdf_book(toc = T, number_sections = T, fig_caption = T, base_format = rmarkdown::pdf_document))
